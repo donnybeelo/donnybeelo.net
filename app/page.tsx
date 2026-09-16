@@ -33,7 +33,7 @@ export default function Page() {
 	}, []);
 
 	return (
-		<div className="h-[calc(100vh-22rem)] md:h-[calc(100vh-17rem)] flex flex-col justify-center items-start relative">
+		<div className="h-[calc(100svh-17rem)] flex flex-col justify-center items-start relative">
 			<h1 className="mb-2 text-5xl font-semibold tracking-tighter fontMomoDisplay">
 				Daniel Elia
 			</h1>
@@ -54,7 +54,7 @@ export default function Page() {
 				<img
 					key={src}
 					src={src}
-					className={`${visibility} absolute -z-10 inset-x-0 md:left-auto md:right-0 mx-auto h-[calc(100vh-22rem)] max-h-140 md:h-[calc(100vh-17rem)] grayscale select-none pointer-events-none animate-[float_6s_ease-in-out_infinite,opacity-pulse_7.7s_ease-in-out_infinite,fadeIn_3.85s_ease-in]`}
+					className={`${visibility} absolute -z-10 inset-x-0 md:left-auto md:right-0 mx-auto h-[calc(100svh-17rem)] max-h-140 grayscale select-none pointer-events-none animate-[float_6s_ease-in-out_infinite,opacity-pulse_7.7s_ease-in-out_infinite,fadeIn_3.85s_ease-in]`}
 				/>
 			))}
 		</div>
